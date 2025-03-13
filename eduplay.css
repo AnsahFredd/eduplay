@@ -1,0 +1,849 @@
+.container {
+  margin-right: auto;
+}
+/* Unordered List nav_lists */
+.navbar-nav {
+  margin-right: 80px;
+}
+.navbar-nav li a {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/* Logo */
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+/* App and Google Store */
+.store {
+  width: 105px;
+  height: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Main Contene */
+.main_content {
+}
+.vertical_lines {
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.left_line {
+  height: 200px;
+}
+.right_line {
+  height: 200px;
+  margin-left: 350px;
+}
+
+.headline_container {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.headline_container article {
+  padding: 25px;
+}
+.headline_container article h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.headline_container article p {
+  color: rgba(0, 0, 0, 0.486);
+  font-size: 14px;
+}
+.headline_container article .btn {
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 16px;
+  overflow: hidden;
+  outline: hidden;
+}
+.headline_container .btn:focus {
+  outline: none;
+}
+.play-and-relax {
+  display: flex;
+  flex-direction: row;
+  margin: 12px;
+  font-family: monospace;
+}
+.engagement_section {
+  text-align: center;
+  padding: 16px;
+}
+.engagement_section img {
+  width: 80px;
+  height: 45px;
+}
+.engagement_section h2 {
+  color: rgb(18, 188, 210);
+  font-size: 20px;
+  margin-top: 10px;
+}
+.engagement_section p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.635);
+}
+
+.process_overview {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px;
+}
+.process_overview article {
+  flex-wrap: wrap;
+}
+.process_overview article p {
+  color: rgba(0, 0, 0, 0.635);
+  font-size: 14px;
+}
+.ordered_list {
+  list-style: none;
+  margin-bottom: 29px;
+}
+.ordered_list span {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 5px 5px 5px 8px;
+  border-radius: 50%;
+  font-size: 15px;
+  flex-shrink: 0;
+  gap: 4px;
+  margin-right: 8px;
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: monospace;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.explore h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.explore p {
+  font-size: 16px;
+}
+.explore button {
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: monospace;
+}
+.learn-more .aside {
+  margin-top: 20px;
+}
+
+.join-community {
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+.join-community .learners_stat {
+  text-align: center;
+}
+.learners_stat .rating_text {
+  background: linear-gradient(115deg, rgb(24, 176, 210), rgb(131, 10, 179));
+  padding: 8px;
+  width: 260px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+/*  */
+.have_fun {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fun .img {
+  border-radius: 10px;
+}
+.have_fun div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.fun_info {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.fun_info .info {
+  color: white;
+  background-color: rgb(24, 176, 210);
+  padding: 6px;
+  border-radius: 3px;
+  width: 80px;
+}
+.fun a {
+  text-decoration: none;
+  margin-left: 50px;
+  color: rgb(131, 10, 179);
+}
+
+/*  */
+.sponsor_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  text-align: center;
+}
+.sponsor_container button {
+  padding: 8px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(131, 10, 179);
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  justify-self: center;
+  align-self: center;
+}
+.sponsors {
+  display: flex;
+  flex-direction: column;
+}
+.sponsor_img {
+  display: flex;
+  flex-direction: row;
+}
+.sponsor_img img {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+}
+
+/*  */
+.newsletter {
+  font-family: monospace;
+  background-color: blueviolet;
+  padding: 36px;
+  color: white;
+  text-align: center;
+  flex-wrap: wrap;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 40px;
+}
+.newsletter h2 {
+  font-size: 26px;
+}
+.newsletter p {
+  font-size: 15px;
+  text-align: center;
+}
+.newsletter input {
+  padding: 12px;
+  color: white;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+}
+.newsletter button {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(24, 176, 210);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.newsletter button:hover {
+  background-color: rgb(5, 135, 164);
+}
+.recommendation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 8px;
+  font-family: monospace;
+}
+.image img {
+  width: 140px;
+}
+.recom_text h2 {
+  width: 600px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.recom_text p {
+  text-align: center;
+  font-size: 16px;
+}
+.recom_text p a {
+  text-decoration: none;
+  color: rgb(5, 135, 164);
+}
+
+.review_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px;
+  margin-top: 40px;
+}
+.review_container h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.signup_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.signup_content .signup_text h2 {
+  text-align: center;
+}
+
+.signup_content .signup_text p {
+  color: rgba(0, 0, 0, 0.635);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.signup_content .signup_text button {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 6px;
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 200px;
+  border-top-left-radius: 8px;
+}
+.art_tools {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+/* Footer */
+footer {
+  background-color: blueviolet;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  color: #fff;
+  flex-wrap: nowrap; /* Ensure everything stays in a row */
+}
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+.footer_logo p {
+  max-width: 300px;
+}
+.store_image {
+  width: 120px;
+  margin-top: 10px;
+}
+.footer_links {
+  display: flex;
+  gap: 50px;
+  flex: 1;
+  justify-content: center;
+}
+.footer_content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer_content a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.footer_social {
+  flex: 1;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.social_icons i {
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 15px;
+}
+.social-icons i:hover {
+  color: #1da1f2;
+}
+/* Copyright Section */
+.footer_copyright {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.designer-name {
+  background: linear-gradient(115deg, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Media Qureies */
+@media screen and (max-width: 768px) {
+  .nav_text {
+    display: none;
+  }
+  .vertical_lines {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .headline_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .headline_container article h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .headline_container article .btn {
+    padding: 10px;
+  }
+  .headline_container article p {
+    font-size: 12px;
+  }
+  .headline_container aside img {
+    width: 300px;
+    height: 300px;
+  }
+  .play-and-relax {
+    display: flex;
+    flex-direction: column;
+  }
+  .play-and-relax p {
+    font-size: 12px;
+  }
+  .process_overview {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 25px;
+  }
+  .process_overview aside img {
+    margin-top: 28px;
+  }
+  .process_overview article li {
+    font-size: 12px;
+  }
+  .process_overview article p {
+    font-size: 12px;
+  }
+  .process_overview article .ordered_list span {
+    font-size: 10px;
+  }
+  .learn-more {
+    display: flex;
+    flex-direction: column;
+  }
+  .learn-more .explore h2 {
+    font-size: 20px;
+  }
+  .learn-more .explore p {
+    font-size: 12px;
+  }
+  .learn-more .explore button {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .learn-more .aside img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .join-community {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  .learners_stat {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .learners_stat h2 {
+    font-size: 20px;
+  }
+  .learners_stat p {
+    font-size: 14px;
+  }
+  .join-community img {
+    width: 70px;
+    margin-bottom: 10px;
+  }
+  .learners_stat .rating_text {
+    margin-left: 150px;
+    width: 180px;
+    height: 50px;
+  }
+  .have_fun {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .img {
+    width: 100%;
+  }
+  .fun {
+    padding: 4px;
+    font-size: 12px;
+  }
+  .sponsor_container {
+    display: grid;
+  }
+  .sponsors {
+    display: grid;
+  }
+  .sponsor_img {
+    display: inline;
+  }
+  .sponsor_img img {
+    margin: 20px;
+    width: 70px;
+  }
+  .sponsor_container h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .sponsor_container p {
+    font-size: 14px;
+  }
+  .sponsor_container button {
+    width: 160px;
+  }
+  .newsletter h2 {
+    font-size: 20px;
+  }
+  .newsletter p {
+    font-size: 12px;
+  }
+  .newsletter input {
+    width: 180px;
+    padding: 8px;
+  }
+  .newsletter button {
+    width: 150px;
+    padding: 8px;
+  }
+  .recommendation {
+    display: grid;
+    text-align: center;
+  }
+  .recom_text h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+  }
+  .recom_text p {
+    font-size: 12px;
+  }
+  .image img {
+    width: 100px;
+  }
+  .review_container {
+    display: grid;
+    text-align: center;
+  }
+  .review_container div p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .review_container div h3 {
+    font-size: 16px;
+  }
+
+  .review_container div .review {
+    width: 16px;
+    margin-top: 10px;
+  }
+  .questions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+  }
+  .signup_content {
+    display: grid;
+    text-align: center;
+  }
+  .signup_content div img {
+    width: 400px;
+  }
+  .signup_content .signup_text button {
+    margin-left: 30px;
+  }
+  .art_tools img {
+    width: 60px;
+  }
+  .footer_container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer_links {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .footer_social {
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* Laptop sreen */
+
+@media screen and (min-width: 758px) {
+  .nav_text {
+    display: block;
+    margin-right: auto;
+  }
+  .headline_container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .headline_container article .btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    width: 450px;
+    height: 100px;
+    padding: 6px;
+  }
+  .headline_container article h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .headline_container aside img {
+    width: 300px;
+    height: 300px;
+  }
+  .btn_container .btn {
+    width: 200px;
+    margin: 10px;
+  }
+  .process_overview aside img {
+    width: 150;
+    height: 300px;
+  }
+  .learn-more .explore h2 {
+    font-size: 26px;
+  }
+  .learn-more .explore p {
+    font-size: 14px;
+  }
+  .learn-more .explore button {
+    padding: 10px;
+  }
+  .join-community {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+  }
+  .join-community img {
+    width: 80px;
+  }
+  .join-community h2 {
+    font-size: 26px;
+  }
+  .join-community p {
+    font-size: 14px;
+    margin: 14px;
+  }
+  .learners_stat .rating_text {
+    margin-left: 250px;
+    width: 200px;
+    height: 50px;
+  }
+  .have_fun {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .fun {
+    padding: 6px;
+    font-size: 14px;
+  }
+  .sponsor_container h2 {
+    font-size: 20px;
+  }
+  .sponsor_container p {
+    font-size: 14px;
+  }
+  .sponsor_img img {
+    width: 90px;
+  }
+  .sponsor_container button {
+    width: 200px;
+  }
+  .newsletter h2 {
+    font-size: 22px;
+  }
+  .newsletter p {
+    font-size: 14px;
+  }
+  .newsletter input {
+    width: 200px;
+    padding: 10px;
+  }
+  .newsletter button {
+    width: 180px;
+    padding: 10px;
+  }
+  .recommendation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    width: 120px;
+  }
+  .recom_text h2 {
+    font-size: 24px;
+  }
+  .recom_text p {
+    font-size: 14px;
+  }
+  .review_container {
+    display: grid;
+    text-align: center;
+  }
+  .review_container div p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .review_container div h3 {
+    font-size: 18px;
+  }
+  .review_container div .review {
+    width: 20px;
+    margin-top: 10px;
+  }
+  .signup_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .signup_content div img {
+    width: 250px;
+  }
+  .signup_content .signup_text h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .signup_content .signup_text p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .signup_content .signup_text button {
+    width: 180px;
+    padding: 8px;
+    margin-left: 30px;
+  }
+  .art_tools img {
+    width: 80px;
+  }
+  .footer_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer_logo {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .footer_links {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .footer_social {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
